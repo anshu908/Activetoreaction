@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from nexichat import nexichat
 
-OWNER = 6949414014
+OWNER = 6258915779
 
 @nexichat.on_message(filters.command("start"))
 async def start_message(client: Client, message: Message):
