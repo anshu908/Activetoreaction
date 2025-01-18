@@ -11,9 +11,8 @@ WELSTART_BOT= [
                 InlineKeyboardButton("• sυᴘᴘσꝛᴛ •", url="https://t.me/BOT_SUPPORT_GROUP7")]
 ]
 
-CLONEBACK = [
-    [("⦿ ʙᴀᴄᴋ ⦿", callback_data="STARTCLONE"),],
-            ]
+CLONEBACK = [("⦿ ʙᴀᴄᴋ ⦿", callback_data="STARTCLONE")]
+
 
 START_BOT = [
     
