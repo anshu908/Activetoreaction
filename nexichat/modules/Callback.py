@@ -46,10 +46,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 #cloner wala 
 
 elif query.data == "CLONE":
-        await query.message.edit(
-            text=CLONEHELP_READ,
-            reply_markup=InlineKeyboardButton(CLONEBACK),
-        )
+    await query.message.edit(
+        text=CLONEHELP_READ,
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(CLONEBACK, callback_data='back')]])
+    )
 
 
 #Start back
