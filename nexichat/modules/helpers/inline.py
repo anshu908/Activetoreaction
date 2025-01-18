@@ -12,7 +12,7 @@ WELSTART_BOT= [
 ]
 
 CLONEBACK = [
-    [InlineKeyboardButton("⦿ ʙᴀᴄᴋ ⦿", callback_data="STARTCLONE"),],
+    [("⦿ ʙᴀᴄᴋ ⦿", callback_data="STARTCLONE"),],
             ]
 
 START_BOT = [
