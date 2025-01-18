@@ -15,6 +15,8 @@ import config
 from nexichat import LOGGER, nexichat, db
 from nexichat.modules.helpers import (
     ABOUT_BTN,
+    CLONEHELP_READ,
+    STARTWEL,
     ABOUT_READ,
     ADMIN_READ,
     BACK,
@@ -45,7 +47,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 elif query.data == "CLONE":
         await query.message.edit(
-            text=ADMIN_READ,
+            text=CLONEHELP_READ,
             reply_markup=InlineKeyboardButton(CLONEBACK),
         )
 
@@ -54,7 +56,7 @@ elif query.data == "CLONE":
 
 elif query.data == "STARTCLONE":
         await query.message.edit(
-            text=ADMIN_READ,
+            text=STARTWEL,
             reply_markup=InlineKeyboardButton(WELSTART_BOT),
         )
 
