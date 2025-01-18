@@ -6,6 +6,17 @@ from pyrogram import Client, filters
 
 STARTWEL = """**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼──────•\n│◍ ʜᴇʏ {message.from_user.first_name} ,\n│◍ ɪ'ᴍ {(await client.get_me()).mention} !\n└──────────────────────•\n✦ ϻσsᴛ ᴘσᴡєꝛғυʟʟ ʀєᴧᴄᴛɪση ʙσᴛ  \n✦ ʙєsᴛ ᴄʟσηєʀ ʙσᴛ ση ᴛєʟєɢꝛᴧϻ \n✦ ᴍᴀᴋᴇ ʏᴏᴜʀ ʙᴏᴛ ʙʏ /clone \n✦ ᴧᴅᴅ ϻє ɢꝛσυᴘ ᴛσ sєє ϻʏ ᴘσᴡєꝛ\n•──────────────────────•\n❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ ➟ [ʙσᴛ ᴄʜᴧϻʙєꝛ ](https://t.me/ll_BOTCHAMBER_ll)❤️‍🔥\n•──────────────────────•**"""
 
+CLONEHELP_READ = f"""**✦  ʏσυꝛ ᴄᴧη ϻᴧᴋє σᴡη ʙσᴛ
+
+✦ sᴛєᴘ  ➟
+
+✦ ᴄꝛєᴧᴛє ʙσᴛ ғꝛσϻ @Botfather
+
+✦ ᴘꝛσᴠɪᴅє ʙσᴛ ᴛσᴋєη ᴧғᴛєꝛ /clone
+
+
+Єxᴧϻᴘʟє  ➟** `/clone Your bot token`"""
+
 START = """**
 {} ᴛʜᴇ ꜱᴜᴘᴇʀғᴀꜱᴛ ᴄʜᴀᴛʙᴏᴛ 
 
