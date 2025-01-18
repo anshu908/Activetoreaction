@@ -55,7 +55,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
 
-elif query.data == "CLONE":
+elif query.data == "CLONtE":
         await query.message.edit(
             text=CLONEHELP_READ,
             reply_markup=InlineKeyboardButton(CLONEBACK),
@@ -68,7 +68,11 @@ elif query.data == "STARTCLONE":
             reply_markup=InlineKeyboardButton(WELSTART_BOT),
         )
 
-    
+ elif query.data == "CLONE":
+        await query.message.edit(
+            text=CLONEHELP_READ,
+            reply_markup=InlineKeyboardButton(CLONEBACK),
+        )   
 #----------------------------------------------------------#   
     elif query.data == "CLOSE":
         await query.message.delete()
