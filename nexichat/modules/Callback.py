@@ -49,8 +49,7 @@ elif query.data == "CLONE":
         await query.message.edit(
             text=CLONEHELP_READ,
             reply_markup=InlineKeyboardButton(CLONEBACK),
-       
-)
+        )
 
 
 #Start back
