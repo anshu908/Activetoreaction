@@ -12,10 +12,8 @@ WELSTART_BOT= [
 ]
 
 CLONEBACK = [
-    [
-        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="STARTCLONE"),
-    ],
-]
+    [InlineKeyboardButton("⦿ ʙᴀᴄᴋ ⦿", callback_data="STARTCLONE"),],
+            ]
 
 START_BOT = [
     
