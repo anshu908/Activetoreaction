@@ -55,7 +55,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
 
-elif query.data == "CLONtE":
         await query.message.edit(
             text=CLONEHELP_READ,
             reply_markup=InlineKeyboardButton(CLONEBACK),
