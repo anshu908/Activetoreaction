@@ -51,10 +51,10 @@ elif query.data == "CLONE":
             reply_markup=InlineKeyboardButton(CLONEBACK),
         )
 
-elif query.data == "STARTCLONE":
+elif query.data == "CLONE":
         await query.message.edit(
-            text=STARTWEL,
-            reply_markup=InlineKeyboardButton(WELSTART_BOT),
+            text=CLONEHELP_READ,
+            reply_markup=InlineKeyboardButton(CLONEBACK),
         )
 #Start back
 
