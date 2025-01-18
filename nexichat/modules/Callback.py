@@ -41,10 +41,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(HELP_BTN),
             disable_web_page_preview=True,
         )
-#-----------------------Testing call back-----------------------------#
-
-#cloner wala #
-
+#-----------------------Testing call back-------------------------#
 
 
 elif query.data == "CLONE":
