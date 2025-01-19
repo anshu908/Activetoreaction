@@ -18,7 +18,7 @@ BACK = [
     ],
 ]
 
-elif query.data == "CLONE":
+if query.data == "CLONE":
     await query.message.edit_text(
         text=CLONEHELP_READ,
         reply_markup=InlineKeyboardMarkup(BACK),  # INLINE बटन को जोड़ा गया
