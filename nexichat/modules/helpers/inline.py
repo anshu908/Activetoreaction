@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
-
+from telegram import InlineKeyboardMarkup
 from config import SUPPORT_GRP, UPDATE_CHNL
 from nexichat import OWNER, nexichat
 
@@ -11,7 +11,18 @@ WELSTART_BOT= [
                 InlineKeyboardButton("• sυᴘᴘσꝛᴛ •", url="https://t.me/BOT_SUPPORT_GROUP7")]
 ]
 
-CLONEBACK = [("⦿ ʙᴀᴄᴋ ⦿", callback_data="STARTCLONE")]
+
+BACK = [
+    [
+        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="STARTCLONE"),
+    ],
+]
+
+elif query.data == "CLONE":
+    await query.message.edit_text(
+        text=CLONEHELP_READ,
+        reply_markup=InlineKeyboardMarkup(BACK),  # INLINE बटन को जोड़ा गया
+    )
 
 
 START_BOT = [
